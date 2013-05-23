@@ -1,0 +1,23 @@
+{
+    "name": "msee",
+    "version": "0.0.0",
+    "description": "Msee is a command-line tool to read markdown file.",
+    "main": "lib/msee.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/firede/msee.git"
+    },
+    "keywords": [
+        "markdown",
+        "terminal",
+        "reader",
+        "console",
+        "shell",
+        "highlight"
+    ],
+    "author": "Firede <firede@firede.us>",
+    "license": "BSD",
+    "bugs": {
+        "url": "https://github.com/firede/msee/issues"
+    }
+}
