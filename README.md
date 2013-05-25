@@ -1,7 +1,7 @@
 Msee
 ===
 
-Msee is a command-line tool to read markdown file.
+*Msee* is a command-line tool to read markdown file.
 
 And it's a library help your command-line software to output readable markdown content.
 
@@ -9,6 +9,10 @@ And it's a library help your command-line software to output readable markdown c
 
     msee <file>
     msee <file> | less
+
+## Screenshot
+
+![Msee](./screenshot.png)
 
 ## API
 
