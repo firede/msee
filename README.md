@@ -1,6 +1,8 @@
 Msee
 ===
 
+[![Dependencies Status](https://david-dm.org/firede/msee.png)](https://david-dm.org/firede/msee)
+
 *Msee* is a command-line tool to read markdown file.
 
 And it's a library help your command-line software to output readable markdown content.
