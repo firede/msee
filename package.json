@@ -13,7 +13,8 @@
         "cardinal": "0.3.2",
         "eighty": "0.0.1",
         "marked": "0.2.8",
-        "nopt": "2.1.1"
+        "nopt": "2.1.1",
+        "xtend": "~2.1.1"
     },
     "keywords": [
         "markdown",
