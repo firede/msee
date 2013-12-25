@@ -7,14 +7,18 @@ msee
 
 And it's a library help your command-line software to output readable markdown content.
 
+## Screenshot
+
+![msee](https://f.cloud.github.com/assets/157338/1808778/175a83aa-6d77-11e3-8cf7-7c756bab34f8.png)
+
+## Installation
+
+    npm install -g msee
+
 ## Usage
 
     msee <file>
     msee <file> | less
-
-## Screenshot
-
-![msee](./screenshot.png)
 
 ## API
 
@@ -26,9 +30,4 @@ msee.parse('> hello world!');
 
 // parse markdown file
 msee.parseFile('~/doc/readme.md');
-```
-
-## Installation
-```Shell
-npm install -g msee
 ```
