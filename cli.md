@@ -1,9 +1,7 @@
 msee
 ===
 
-[![Dependencies Status](https://david-dm.org/firede/msee.png)](https://david-dm.org/firede/msee)
-
-*msee* is a command-line tool to read markdown file.
+`msee` is a command-line tool to read markdown file.
 
 And it's a library help your command-line software to output readable markdown content.
 
@@ -11,10 +9,6 @@ And it's a library help your command-line software to output readable markdown c
 
     msee <file>
     msee <file> | less
-
-## Screenshot
-
-![msee](./screenshot.png)
 
 ## API
 
@@ -26,9 +20,4 @@ msee.parse('> hello world!');
 
 // parse markdown file
 msee.parseFile('~/doc/readme.md');
-```
-
-## Installation
-```Shell
-npm install -g msee
 ```
