@@ -25,3 +25,8 @@ msee.parse('> hello world!');
 // parse markdown file
 msee.parseFile('~/doc/readme.md');
 ```
+
+## Installation
+```Shell
+npm install -g msee
+```
