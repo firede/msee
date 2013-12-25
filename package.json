@@ -10,17 +10,10 @@
     },
     "dependencies": {
         "chalk": "~0.3.0",
-<<<<<<< HEAD
-        "cardinal": "0.3.2",
-        "eighty": "0.0.1",
-        "marked": "0.2.8",
-        "nopt": "2.1.1",
-        "xtend": "~2.1.1"
-=======
         "cardinal": "~0.4.2",
         "marked": "~0.2.10",
-        "nopt": "2.1.1"
->>>>>>> develop
+        "nopt": "~2.1.1",
+        "xtend": "~2.1.1"
     },
     "keywords": [
         "markdown",
