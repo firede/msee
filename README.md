@@ -19,6 +19,7 @@ And it's a library help your command-line software to output readable markdown c
 
     msee <file>
     msee <file> | less
+    cat <file> | msee
 
 ## API
 
