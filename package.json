@@ -1,32 +1,32 @@
 {
-    "name": "msee",
-    "version": "0.1.1",
-    "description": "Msee is a command-line tool to read Markdown file in your terminal, and it's a library help your command-line software to output readable markdown content.",
-    "main": "./lib/msee.js",
-    "bin": "./bin/msee",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/firede/msee.git"
-    },
-    "dependencies": {
-        "chalk": "~0.4.0",
-        "cardinal": "~0.4.3",
-        "marked": "~0.3.0",
-        "nopt": "~2.1.1",
-        "xtend": "~2.1.1"
-    },
-    "keywords": [
-        "markdown",
-        "terminal",
-        "reader",
-        "console",
-        "shell",
-        "colors",
-        "highlight"
-    ],
-    "author": "Firede <firede@firede.us>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/firede/msee/issues"
-    }
+  "name": "msee",
+  "version": "0.1.1",
+  "description": "Msee is a command-line tool to read Markdown file in your terminal, and it's a library help your command-line software to output readable markdown content.",
+  "main": "./lib/msee.js",
+  "bin": "./bin/msee",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/firede/msee.git"
+  },
+  "dependencies": {
+    "cardinal": "^0.5.0",
+    "chalk": "~0.4.0",
+    "marked": "~0.3.0",
+    "nopt": "~2.1.1",
+    "xtend": "~2.1.1"
+  },
+  "keywords": [
+    "markdown",
+    "terminal",
+    "reader",
+    "console",
+    "shell",
+    "colors",
+    "highlight"
+  ],
+  "author": "Firede <firede@firede.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firede/msee/issues"
+  }
 }
