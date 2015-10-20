@@ -41,6 +41,6 @@ https://github.com/firede/msee/graphs/contributors
 
 MIT &copy; [Firede](https://github.com/firede)
 
-===
+---
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/firede/msee/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
