@@ -12,7 +12,7 @@ And it's a library help your command-line software to output readable markdown c
 
 ## Screenshot
 
-![msee](https://f.cloud.github.com/assets/157338/1808778/175a83aa-6d77-11e3-8cf7-7c756bab34f8.png)
+<img width="752" alt="msee" src="https://cloud.githubusercontent.com/assets/157338/10902801/531ba216-823d-11e5-87ac-986b8d5ea4cc.png">
 
 ## Installation
 
