@@ -19,6 +19,13 @@ var msee = require('msee');
 // parse markdown text
 msee.parse('> hello world!');
 
+// ...with options
+// @see https://github.com/firede/msee/blob/master/lib/msee.js#L9
+msee.parse(str, {
+    collapseNewlines: false,
+    width: 120
+});
+
 // parse markdown file
 msee.parseFile('~/doc/readme.md');
 ```
