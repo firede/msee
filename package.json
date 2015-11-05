@@ -15,7 +15,7 @@
     "marked": "^0.3.5",
     "nopt": "^3.0.4",
     "text-table": "^0.2.0",
-    "wcstring": "^1.0.1",
+    "wcstring": "^2.1.0",
     "xtend": "^4.0.0"
   },
   "keywords": [
