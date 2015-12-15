@@ -11,7 +11,7 @@
   "dependencies": {
     "ansi-regex": "^2.0.0",
     "ansicolors": "^0.3.2",
-    "cardinal": "^0.6.0",
+    "cardinal": "^0.7.1",
     "chalk": "^1.1.1",
     "marked": "^0.3.5",
     "nopt": "^3.0.4",
