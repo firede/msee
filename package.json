@@ -1,6 +1,6 @@
 {
   "name": "msee",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Msee is a command-line tool to read Markdown file in your terminal, and it's a library help your command-line software to output readable markdown content.",
   "main": "./lib/msee.js",
   "bin": "./bin/msee",
