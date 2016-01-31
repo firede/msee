@@ -1,3 +1,18 @@
+0.3.1 / 2016-02-01
+==================
+
+ * updated dependencies
+
+0.3.0 / 2016-01-31
+==================
+
+ * added extensive padding options for lists through wcstring #29
+ * added wrapping to size #27
+ * improved syntax highlighting for windows use [69b4dbe](https://github.com/firede/msee/commit/69b4dbe6254d2f8b8757b8db751478b219690028)
+ * added "raw" mode for code sections #23
+ * improved table display #30
+ * updated dependencies
+
 0.2.0 / 2015-11-03
 ==================
 
