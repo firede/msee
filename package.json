@@ -30,6 +30,9 @@
     "highlight"
   ],
   "author": "Firede <firede@firede.us>",
+  "contributors": [
+  	"Martin Heidegger <martin.heidegger@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/firede/msee/issues"
