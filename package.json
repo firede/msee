@@ -5,7 +5,7 @@
   "main": "./lib/msee.js",
   "bin": "./bin/msee",
   "scripts": {
-    "test": "env FORCE_COLOR=true tap test/**/*.js"
+    "test": "env FORCE_COLOR=true tap --lines=85 test/**/*.js"
   },
   "repository": {
     "type": "git",
