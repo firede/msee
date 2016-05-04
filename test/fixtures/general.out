@@ -1,0 +1,125 @@
+
+[36m[1m[90m# [36mHeadline 1[22m[39m
+
+This is a test document it contains a lot of text that should be wrapped to
+multiple lines.
+日本語のテキストも書いてあります。どうしてかというと漢字はコンソールで二つの半角
+のスペースを使っています。
+
+[90m-------------------------------------------------------------------------------
+[39mWe also make sure that there is inline [3mitalic[23m and [1mbold[22m text. Maybe even [3m[1mbold
+italic[22m[23m text? And how about [90mcode[39m or [1m[90mbold code[39m[22m or [3m[1m[90mbold italic code[39m[22m[23m? Maybe we need
+some [1mbold[22m statements written with [3mitalic[23m letters? or [90m**bold code**[39m that is
+processed other wise? &copy; Should become © or shouldn't it? Multiple spaces
+like here   should turn into a single space    even with a tab. To ensure a
+space we can still use &nbsp;&nbsp;, can't we?
+
+[36m[1m[90m## [36mA few ways to link[22m[39m
+
+[[1mA link somewhere[22m]([34mhttp://somewhere.to.go[39m)
+[[1mhttp://somewhere.to.go[22m]([34mhttp://somewhere.to.go[39m)
+[[1mhttp://somewhere.to.go[22m]([34mhttp://somewhere.to.go[39m) [34m<http://somewhere.to.go>[39m [[1m`A
+code link to somewhere`[22m]([34mhttp://somewhere.to.go[39m) [[1m_An italic link to
+somewhere_[22m]([34mhttp://somewhere.to.go[39m) [1m[[1mAn bold link to
+somewhere[1m]([34mhttp://somewhere.to.go[39m)[22m [link][] [link to nowhere][] [numbered
+link][1]
+
+[36m[1m[90m## [36mImages[22m[39m
+
+[[1mAn image[22m]([34m./image.jpg[39m) [[1m![A linked image](./image.jpg)[22m]([34mhttp://somewhere.to.go[39m)
+
+[36m[1m[90m## [36mRegular Lists[22m[39m
+
+Here is some perfectly normal text before a list, just to make sure that the
+spacing is good.
+
+[90m  * [39mRegular Entry [90m  * [39mwith a deep list 
+[90m  * [39mVery, very long entry with a lot of text. So much text in fact that it will
+[90m    [39musually require a line-break to contain it all. This text is also containing
+[90m    [39msome japanese characters like こんにちは and
+[90m    [39mどうもありがとうミスターロボット to check for multi-line entries
+[90m  * [39mLists should even support indented code [90m  For the fun of it[39m 
+[90m  * [39mAnother entry with a [[1mlink[22m]([34mhttp://somewhere.to.go[39m) [90m  [3m [39mDeep lists with [90m  [23m [39m[90mx[39m
+[90m    [39mor [90m  * [39mother deep lists [90m  [3m [39mwith stars should work [90m  [23m [39mfine as well 
+undefinedA list entry with follow up lines  that are indented both with spaces  and with tabs for the sake of testing.  even with multiple lines in the mix  これは問題ないでしょうか？undefined
+Same thing after the list.
+
+[90m  * [39mBut lets end with a list anyways
+[90m  * [39mTo make sure that the spacing to a header is good as well.
+
+[36m[1m[90m## [36mOrdered Lists[22m[39m
+
+Another good text before an ordered list.
+
+[90m  * [39mRegular Entry,
+[90m  * [39mVery, very long entry with a lot of text. So much text in fact that it will
+[90m    [39musually require a line-break to contain it all. This text is also containing
+[90m    [39msome japanese characters like こんにちは and
+[90m    [39mどうもありがとうミスターロボット to check for multi-line entries
+[90m  * [39mIndented Blockquotes should be fine too [34m[90m  > [34mFor the fun of itLets have a
+[90m    [39mblockquote contest[39m 
+[90m  * [39mAnother entry with a [[1mlink[22m]([34mhttp://somewhere.to.go[39m)
+[90m  * [39mWhile we are at it [90m  [3m [39mIt should be possible to have nested lists with 4
+[90m    [39mspaces too [90m  [23m [39mBut also with tabs [90m  [3m [39meven nested entries of nested entries
+[90m    [39mshouldn't break [90m    [39mthis. [90m  [23m [39mPerhaps I am naive? 
+
+Same thing after the list.
+
+[90m  * [39mAlso testing if the order of the numbering is
+[90m  * [39mOf any value or if we
+[90m  * [39mCompletely ignore them same as markdown does ...
+
+[36m[1m[90m## [36mCode[22m[39m
+
+Code should be writable inline like [90mthis[39m and even support back-ticks like
+[90mhello` world[39m but also as a block like:
+
+    [37m// &copy; 2016[39m
+    [35mfunction[39m anExamplaryJavaScriptMethod [31m([39m[31m)[39m [31m{[39m
+        [35mreturn[39m whyDoesThisLegacyObject[31m.[39mhaveAMethodThatRequiresManyArgumentsAndSuchALongTitle[31m([39mits[31m,[39m to[31m,[39m test[31m,[39m wrapping[31m,[39m of[31m,[39m code[31m)[39m
+    [31m}[39m
+
+Lets make sure that maybe some other formatting is supported as well
+
+    [90m/* Hello World program */
+    #include<stdio.h>
+    
+    int main() {
+       printf("Hello World");
+       return 0;
+    }[39m
+
+[36m[1m[90m## [36mQuotes[22m[39m
+
+[34m[90m  > [34m [36m[1m[90m# [36mYou should know this is a header[22m[34m There is also support for quotes with
+[90m  > [34m`code` and [a link](http://somewhere.to.go) and some **bold** text that
+[90m  > [34mexplodes this line totally.
+[90m  > [34m次の行目もテキストがたくさんが入っています。_どうして_
+[90m  > [34mフォマッティングがおかしくなるのをテストするからです。もしかして短いテキスト
+[90m  > [34mは問題なしに連打されているかもしれません。 [34m[90m  > [34mEven nested Quotes are fine,
+[90m  > [34marn't they[34m [90m  * [34mSometimes we have even lists in quotes [90m  * [34mSometimes long
+[90m  > [34mlists [90mCode blocks should work too! with a lot of text multiline even[34m lets
+[90m  > [34msee if all this work.[39m
+
+[36m[1m[90m## [36mTable[22m[39m
+
+[1mWe[22m      [1meven[22m                                                                                    [1msupport[22m [1mtables[22m
+------- --------------------------------------------------------------------------------------- ------- --------------------------------
+but     sadly                                                                                   only    single-line
+how     about                                                                                   [3mitalic[23m  or [1mbold[22m
+[90mtext[39m    it should be as formatted as                                                            &copy;  but [[1mbetter[22m]([34mhttp://somwhere.to[39m)
+perhaps a very long text block in the middle of this is not needlessly wrapped after some point and     maybe
+even    missing
+columns don't                                                                                   disturb
+the     engine
+
+[36m[1m[90m### [36mSome ...[22m[39m
+
+[36m[1m[90m#### [36m... More ...[22m[39m
+
+[36m[1m[90m##### [36m... Headers[22m[39m
+
+[36m[1m[90m# [36mHeaders with underlines[22m[39m
+
+[36m[1m[90m## [36mCould be written in various ways[22m[39m
+
