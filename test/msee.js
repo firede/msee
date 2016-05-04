@@ -6,7 +6,7 @@ const fs = require('fs')
 
 test('default general test', function (t) {
 	t.equal(
-		msee.parseFile(path.join(__dirname, 'fixtures', 'general.md')),
+		msee.parseFile(path.join(__dirname, 'fixtures', 'general.md'), {maxWidth: 80}),
 		fs.readFileSync(path.join(__dirname, 'fixtures', 'general.out'), 'utf8')
 	)
 	t.end()
