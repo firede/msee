@@ -2,6 +2,8 @@ msee
 ===
 
 [![NPM version](https://img.shields.io/npm/v/msee.svg?style=flat-square)](https://npmjs.org/package/msee)
+[![Travis](https://img.shields.io/travis/firede/msee/master.svg?style=flat-square)](https://travis-ci.org/firede/msee)
+[![Coveralls branch](https://img.shields.io/coveralls/firede/msee/master.svg?style=flat-square)](https://coveralls.io/github/firede/msee?branch=master)
 [![Dependencies Status](https://img.shields.io/david/firede/msee.svg?style=flat-square)](https://david-dm.org/firede/msee)
 [![download per month](https://img.shields.io/npm/dm/msee.svg?style=flat-square)](https://npmjs.org/package/msee)
 [![License](https://img.shields.io/npm/l/msee.svg?style=flat-square)](https://npmjs.org/package/msee)
