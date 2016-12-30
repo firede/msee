@@ -7,8 +7,8 @@ And it's a library help your command-line software to output readable markdown c
 
 ## Usage
 
-    msee <file>
-    msee <file> | less
+    msee <file> [file...]
+    msee <file> [file...] | less
     cat <file> | msee
 
 ## API
