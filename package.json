@@ -16,6 +16,7 @@
     "ansicolors": "^0.3.2",
     "cardinal": "^0.7.1",
     "chalk": "^1.1.1",
+    "entities": "^1.1.1",
     "marked": "^0.3.5",
     "nopt": "^3.0.4",
     "table-header": "^0.2.2",

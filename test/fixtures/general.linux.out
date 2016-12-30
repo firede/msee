@@ -10,9 +10,9 @@ multiple lines.
 [39mWe also make sure that there is inline [3mitalic[23m and [1mbold[22m text. Maybe even [3m[1mbold
 italic[22m[23m text? And how about [37mcode[39m or [1m[37mbold code[39m[22m or [3m[1m[37mbold italic code[39m[22m[23m? Maybe we need
 some [1mbold[22m statements written with [3mitalic[23m letters? or [37m**bold code**[39m that is
-processed other wise? &copy; Should become © or shouldn't it? Multiple spaces
-like here   should turn into a single space    even with a tab. To ensure a
-space we can still use &nbsp;&nbsp;, can't we?
+processed other wise? © Should become © or shouldn't it? Multiple spaces like
+here   should turn into a single space    even with a tab. To ensure a space we
+can still use   , can't we?
 
 [36m[1m[37m## [36mA few ways to link[22m[39m
 
