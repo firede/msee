@@ -51,23 +51,23 @@ Same thing after the list.
 
 Another good text before an ordered list.
 
-[90m  * [39mRegular Entry,
-[90m  * [39mVery, very long entry with a lot of text. So much text in fact that it will
-[90m    [39musually require a line-break to contain it all. This text is also containing
-[90m    [39msome japanese characters like こんにちは and
-[90m    [39mどうもありがとうミスターロボット to check for multi-line entries
-[90m  * [39mIndented Blockquotes should be fine too [34m[90m  > [34mFor the fun of itLets have a
-[90m    [39mblockquote contest[39m 
-[90m  * [39mAnother entry with a [[1mlink[22m]([34mhttp://somewhere.to.go[39m)
-[90m  * [39mWhile we are at it [90m  [3m [39mIt should be possible to have nested lists with 4
-[90m    [39mspaces too [90m  [23m [39mBut also with tabs [90m  [3m [39meven nested entries of nested entries
-[90m    [39mshouldn't break [90m    [39mthis. [90m  [23m [39mPerhaps I am naive? 
+[90m  1. [39mRegular Entry,
+[90m  2. [39mVery, very long entry with a lot of text. So much text in fact that it will
+[90m     [39musually require a line-break to contain it all. This text is also
+[90m     [39mcontaining some japanese characters like こんにちは and
+[90m     [39mどうもありがとうミスターロボット to check for multi-line entries
+[90m  3. [39mIndented Blockquotes should be fine too [34m[90m  > [34mFor the fun of itLets have a
+[90m     [39mblockquote contest[39m 
+[90m  4. [39mAnother entry with a [[1mlink[22m]([34mhttp://somewhere.to.go[39m)
+[90m  4. [39mWhile we are at it [90m  1. [39mIt should be possible to have nested lists with 4
+[90m     [39mspaces too [90m  3. [39mBut also with tabs [90m  1. [39meven nested entries of nested
+[90m     [39mentries shouldn't [90m     [39mbreak this. [90m  2. [39mPerhaps I am naive? 
 
 Same thing after the list.
 
-[90m  * [39mAlso testing if the order of the numbering is
-[90m  * [39mOf any value or if we
-[90m  * [39mCompletely ignore them same as markdown does ...
+[90m  1. [39mAlso testing if the order of the numbering is
+[90m  2. [39mOf any value or if we
+[90m  3. [39mCompletely ignore them same as markdown does ...
 
 [36m[1m[90m## [36mCode[22m[39m
 
