@@ -41,7 +41,7 @@ spacing is good.
 [37m  * [39mLists should even support indented code [37m  For the fun of it[39m 
 [37m  * [39mAnother entry with a [[1mlink[22m]([34mhttp://somewhere.to.go[39m) [37m  [3m [39mDeep lists with [37m  [23m [39m[37mx
 [37m    [39mor [37m  * [39mother deep lists [37m  [3m [39mwith stars should work [37m  [23m [39mfine as well 
-[37m  * [39mA list entry with follow up lines  that are indented both with spaces  and
+[37m  * [39mA list entry with follow up lines  that are indented both with spaces  and
 [37m    [39mwith tabs for the sake of testing.  even with multiple lines in the mix
 [37m    [39mこれは問題ないでしょうか？
 
