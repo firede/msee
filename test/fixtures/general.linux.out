@@ -17,10 +17,9 @@ can still use   , can't we?
 [36m[1m[37m## [36mA few ways to link[22m[39m
 
 [[1mA link somewhere[22m]([34mhttp://somewhere.to.go[39m)
-[[1mhttp://somewhere.to.go[22m]([34mhttp://somewhere.to.go[39m)
-[[1mhttp://somewhere.to.go[22m]([34mhttp://somewhere.to.go[39m) [34m<http://somewhere.to.go>[39m [[1m`A
-code link to somewhere`[22m]([34mhttp://somewhere.to.go[39m) [[1m_An italic link to
-somewhere_[22m]([34mhttp://somewhere.to.go[39m) [1m[[1mAn bold link to
+[[1mhttp://somewhere.to.go[22m]([34mhttp://somewhere.to.go[39m) ([34mhttp://somewhere.to.go[39m)
+[34m<http://somewhere.to.go>[39m [[1m`A code link to somewhere`[22m]([34mhttp://somewhere.to.go[39m)
+[[1m_An italic link to somewhere_[22m]([34mhttp://somewhere.to.go[39m) [1m[[1mAn bold link to
 somewhere[1m]([34mhttp://somewhere.to.go[39m)[22m [link][] [link to nowhere][] [numbered
 link][1]
 
