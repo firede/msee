@@ -45,6 +45,6 @@
   },
   "devDependencies": {
     "stream-to-string": "^1.1.0",
-    "tap": "^5.7.1"
+    "tap": "^11.1.0"
   }
 }
