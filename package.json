@@ -12,7 +12,7 @@
     "url": "git://github.com/firede/msee.git"
   },
   "dependencies": {
-    "ansi-regex": "^2.0.0",
+    "ansi-regex": "^3.0.0",
     "ansicolors": "^0.3.2",
     "cardinal": "^1.0.0",
     "chalk": "^1.1.1",
