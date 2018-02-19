@@ -84,25 +84,25 @@ Code should be writable inline like [37mthis[39m and even support back-ticks l
 
 Lets make sure that maybe some other formatting is supported as well
 
-    [37m/* Hello World program */
-    #include<stdio.h>
-    
-    int main() {
-       printf("Hello World");
-       return 0;
-    }[39m
+    [37m/* Hello World program */[39m
+    [37m#include<stdio.h>[39m
+    [37m[39m
+    [37mint main() {[39m
+    [37m   printf("Hello World");[39m
+    [37m   return 0;[39m
+    [37m}[39m
 
 [36m[1m[37m## [36mQuotes[22m[39m
 
-[34m[37m  > [34m [36m[1m[37m# [36mYou should know this is a header[22m[34m There is also support for quotes with
-[37m  > [34m`code` and [a link](http://somewhere.to.go) and some **bold** text that
-[37m  > [34mexplodes this line totally.
-[37m  > [34m次の行目もテキストがたくさんが入っています。_どうして_
-[37m  > [34mフォマッティングがおかしくなるのをテストするからです。もしかして短いテキスト
-[37m  > [34mは問題なしに連打されているかもしれません。 [34m[37m  > [34mEven nested Quotes are fine,
-[37m  > [34marn't they[34m [37m  * [34mSometimes we have even lists in quotes [37m  * [34mSometimes long
-[37m  > [34mlists [37mCode blocks should work too! with a lot of text multiline even[34m lets
-[37m  > [34msee if all this work.[39m
+[34m[37m  > [34m [36m[1m[37m# [36mYou should know this is a header[22m[34m There is also support for quotes with[39m
+[34m[37m  > [34m`code` and [a link](http://somewhere.to.go) and some **bold** text that[39m
+[34m[37m  > [34mexplodes this line totally.[39m
+[34m[37m  > [34m次の行目もテキストがたくさんが入っています。_どうして_[39m
+[34m[37m  > [34mフォマッティングがおかしくなるのをテストするからです。もしかして短いテキスト[39m
+[34m[37m  > [34mは問題なしに連打されているかもしれません。 [34m[37m  > [34mEven nested Quotes are fine,[39m
+[34m[37m  > [34marn't they[34m [37m  * [34mSometimes we have even lists in quotes [37m  * [34mSometimes long[39m
+[34m[37m  > [34mlists [37mCode blocks should work too! with a lot of text multiline even[34m lets[39m
+[34m[37m  > [34msee if all this work.[39m
 
 [36m[1m[37m## [36mTable[22m[39m
 

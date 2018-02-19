@@ -6,8 +6,8 @@ multiple lines.
 日本語のテキストも書いてあります。どうしてかというと漢字はコンソールで二つの半角
 のスペースを使っています。
 
-[90m-------------------------------------------------------------------------------
-[39mWe also make sure that there is inline [3mitalic[23m and [1mbold[22m text. Maybe even [3m[1mbold
+[90m-------------------------------------------------------------------------------[39m
+[90m[39mWe also make sure that there is inline [3mitalic[23m and [1mbold[22m text. Maybe even [3m[1mbold
 italic[22m[23m text? And how about [90mcode[39m or [1m[90mbold code[39m[22m or [3m[1m[90mbold italic code[39m[22m[23m? Maybe we need
 some [1mbold[22m statements written with [3mitalic[23m letters? or [90m**bold code**[39m that is
 processed other wise? © Should become © or shouldn't it? Multiple spaces like
@@ -39,8 +39,8 @@ spacing is good.
 [90m    [39mどうもありがとうミスターロボット to check for multi-line entries
 [90m  * [39mLists should even support indented code For the fun of it 
 [90m  * [39mLists should even support indented, typed code [32mvar[39m a [31m=[39m [34m1[39m[31m;[39m 
-[90m  * [39mAnother entry with a [[1mlink[22m]([34mhttp://somewhere.to.go[39m) [90m  [3m [39mDeep lists with [90m  [23m [39m[90mx
-[90m    [39mor [90m  * [39mother deep lists [90m  [3m [39mwith stars should work [90m  [23m [39mfine as well 
+[90m  * [39mAnother entry with a [[1mlink[22m]([34mhttp://somewhere.to.go[39m) [90m  [3m [39mDeep lists with[23m [3m[90m  [23m [39m[90mx
+[90m    [39mor [90m  * [39mother deep lists [90m  [3m [39mwith stars should work[23m [3m[90m  [23m [39mfine as well 
 [90m  * [39mA list entry with follow up lines  that are indented both with spaces  and
 [90m    [39mwith tabs for the sake of testing.  even with multiple lines in the mix
 [90m    [39mこれは問題ないでしょうか？
@@ -84,25 +84,25 @@ Code should be writable inline like [90mthis[39m and even support back-ticks l
 
 Lets make sure that maybe some other formatting is supported as well
 
-    [90m/* Hello World program */
-    #include<stdio.h>
-    
-    int main() {
-       printf("Hello World");
-       return 0;
-    }[39m
+    [90m/* Hello World program */[39m
+    [90m#include<stdio.h>[39m
+    [90m[39m
+    [90mint main() {[39m
+    [90m   printf("Hello World");[39m
+    [90m   return 0;[39m
+    [90m}[39m
 
 [36m[1m[90m## [36mQuotes[22m[39m
 
-[34m[90m  > [34m [36m[1m[90m# [36mYou should know this is a header[22m[34m There is also support for quotes with
-[90m  > [34m`code` and [a link](http://somewhere.to.go) and some **bold** text that
-[90m  > [34mexplodes this line totally.
-[90m  > [34m次の行目もテキストがたくさんが入っています。_どうして_
-[90m  > [34mフォマッティングがおかしくなるのをテストするからです。もしかして短いテキスト
-[90m  > [34mは問題なしに連打されているかもしれません。 [34m[90m  > [34mEven nested Quotes are fine,
-[90m  > [34marn't they[34m [90m  * [34mSometimes we have even lists in quotes [90m  * [34mSometimes long
-[90m  > [34mlists Code blocks should work too[31m![34m with a lot of text multiline even lets
-[90m  > [34msee if all this work.[39m
+[34m[90m  > [34m [36m[1m[90m# [36mYou should know this is a header[22m[34m There is also support for quotes with[39m
+[34m[90m  > [34m`code` and [a link](http://somewhere.to.go) and some **bold** text that[39m
+[34m[90m  > [34mexplodes this line totally.[39m
+[34m[90m  > [34m次の行目もテキストがたくさんが入っています。_どうして_[39m
+[34m[90m  > [34mフォマッティングがおかしくなるのをテストするからです。もしかして短いテキスト[39m
+[34m[90m  > [34mは問題なしに連打されているかもしれません。 [34m[90m  > [34mEven nested Quotes are fine,[39m
+[34m[90m  > [34marn't they[34m [90m  * [34mSometimes we have even lists in quotes [90m  * [34mSometimes long[39m
+[34m[90m  > [34mlists Code blocks should work too[31m![34m with a lot of text multiline even lets[39m
+[34m[90m  > [34msee if all this work.[39m
 
 [36m[1m[90m## [36mTable[22m[39m
 
