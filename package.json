@@ -18,7 +18,7 @@
     "chalk": "^2.3.1",
     "combined-stream-wait-for-it": "^1.1.0",
     "entities": "^1.1.1",
-    "marked": "^0.3.5",
+    "marked": "0.3.12",
     "nopt": "^4.0.1",
     "strip-ansi": "^4.0.0",
     "table-header": "^0.2.2",
