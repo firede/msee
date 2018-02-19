@@ -38,6 +38,10 @@ Here is some perfectly normal text before a list, just to make sure that the spa
     ```
     For the fun of it
     ```
+- Lists should even support indented, typed code
+    ```javascript
+    var a = 1;
+    ```
 - Another entry with a [link](http://somewhere.to.go)
     + Deep lists with 
     + `x` or

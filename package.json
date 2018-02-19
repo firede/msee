@@ -14,7 +14,7 @@
   "dependencies": {
     "ansi-regex": "^2.0.0",
     "ansicolors": "^0.3.2",
-    "cardinal": "^0.7.1",
+    "cardinal": "^1.0.0",
     "chalk": "^1.1.1",
     "combined-stream-wait-for-it": "^1.1.0",
     "entities": "^1.1.1",

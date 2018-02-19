@@ -37,7 +37,8 @@ spacing is good.
 [90m    [39musually require a line-break to contain it all. This text is also containing
 [90m    [39msome japanese characters like こんにちは and
 [90m    [39mどうもありがとうミスターロボット to check for multi-line entries
-[90m  * [39mLists should even support indented code [90m  For the fun of it[39m 
+[90m  * [39mLists should even support indented code For the fun of it 
+[90m  * [39mLists should even support indented, typed code [32mvar[39m a [31m=[39m [34m1[39m[31m;[39m 
 [90m  * [39mAnother entry with a [[1mlink[22m]([34mhttp://somewhere.to.go[39m) [90m  [3m [39mDeep lists with [90m  [23m [39m[90mx
 [90m    [39mor [90m  * [39mother deep lists [90m  [3m [39mwith stars should work [90m  [23m [39mfine as well 
 [90m  * [39mA list entry with follow up lines  that are indented both with spaces  and
@@ -100,7 +101,7 @@ Lets make sure that maybe some other formatting is supported as well
 [90m  > [34mフォマッティングがおかしくなるのをテストするからです。もしかして短いテキスト
 [90m  > [34mは問題なしに連打されているかもしれません。 [34m[90m  > [34mEven nested Quotes are fine,
 [90m  > [34marn't they[34m [90m  * [34mSometimes we have even lists in quotes [90m  * [34mSometimes long
-[90m  > [34mlists [90mCode blocks should work too! with a lot of text multiline even[34m lets
+[90m  > [34mlists Code blocks should work too[31m![34m with a lot of text multiline even lets
 [90m  > [34msee if all this work.[39m
 
 [36m[1m[90m## [36mTable[22m[39m

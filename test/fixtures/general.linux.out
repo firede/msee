@@ -37,7 +37,8 @@ spacing is good.
 [37m    [39musually require a line-break to contain it all. This text is also containing
 [37m    [39msome japanese characters like こんにちは and
 [37m    [39mどうもありがとうミスターロボット to check for multi-line entries
-[37m  * [39mLists should even support indented code [37m  For the fun of it[39m 
+[37m  * [39mLists should even support indented code For the fun of it 
+[37m  * [39mLists should even support indented, typed code [32mvar[39m a [31m=[39m [34m1[39m[31m;[39m 
 [37m  * [39mAnother entry with a [[1mlink[22m]([34mhttp://somewhere.to.go[39m) [37m  [3m [39mDeep lists with [37m  [23m [39m[37mx
 [37m    [39mor [37m  * [39mother deep lists [37m  [3m [39mwith stars should work [37m  [23m [39mfine as well 
 [37m  * [39mA list entry with follow up lines  that are indented both with spaces  and
