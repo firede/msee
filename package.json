@@ -12,18 +12,18 @@
     "url": "git://github.com/firede/msee.git"
   },
   "dependencies": {
-    "ansi-regex": "^3.0.0",
+    "ansi-regex": "^5.0.0",
     "ansicolors": "^0.3.2",
     "cardinal": "^1.0.0",
     "chalk": "^2.3.1",
     "combined-stream-wait-for-it": "^1.1.0",
-    "entities": "^1.1.2",
+    "entities": "^2.0.3",
     "marked": "0.3.12",
     "nopt": "^4.0.3",
-    "strip-ansi": "^4.0.0",
+    "strip-ansi": "^6.0.0",
     "table-header": "^0.2.2",
     "text-table": "^0.2.0",
-    "through2": "^2.0.3",
+    "through2": "^3.0.1",
     "wcstring": "^2.1.0",
     "xtend": "^4.0.2"
   },
